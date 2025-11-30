@@ -1,0 +1,261 @@
+body{
+    background-color: black;
+}
+.navbar {
+    background: black;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-brand h2 {
+    color: #d35400;
+    margin: 0;
+}
+
+.navbar-brand p {
+    color: #666;
+    margin: 0;
+    font-size: 14px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.hero {
+    background: 
+    url(images/heroimg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center ;
+  height: 80vh;
+
+}
+.head {
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ text-align: center;
+color: white;
+background-color: black;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.brands {
+    padding: 60px 0;
+    background:black;
+}
+
+.btn-order {
+    background: #d35400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+.franchises {
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+
+}
+ 
+.franchise-card {
+    background:#666;
+    padding: 25px;
+    margin-bottom: 25px ;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      backdrop-filter: blur(10px);
+    border-left: 4px solid #ff6b35;
+    
+}
+
+
+.btn-direction {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+.coming-soon {
+    background: #666;
+    padding: 60px 0;
+    color: white;
+}
+
+.coming-card {
+    background: #444;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+     border-left: 4px  solid #ff6b35;
+}
+
+.badge {
+    background: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.footer {
+    background:black;
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.footer h5, .footer h6 {
+    color: #d35400;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin-right: 15px;
+    color: #bbb;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #bbb;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+} 
+.express {
+    color: white;
+    
+}
+
+.express-card {
+    background:#666;
+    padding: 10px;
+    margin-bottom: 10px ;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      backdrop-filter: blur(10px);
+    border-left: 4px  solid #ff6b35;
+    
+}
+
+.brand-card {
+   
+     background:white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+     border-left: 5px  solid #ff6b35;
+}
+.pink {
+    background: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+  
+}
+
+.franchise-cc {
+    color: white;
+    background:#666;
+    padding: 25px;
+    margin-bottom: 25px ;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      backdrop-filter: blur(10px);
+    border-left: 4px solid #ff6b35;
+}
+.village-card{
+    background:#666;
+    padding: 25px;
+    margin-bottom: 25px ;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      backdrop-filter: blur(10px);
+    border-left: 4px solid #ff6b35;
+}
+.village{
+    color: white;
+}
